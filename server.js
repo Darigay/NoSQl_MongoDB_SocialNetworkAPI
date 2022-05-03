@@ -14,8 +14,7 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/userdb',{
  
   useNewUrlParser: true,
   useUnifiedTopology: true
-});
-
+})
 mongoose.set('debug', true);
 
 // app.post('/submit', ({ body }, res) => {

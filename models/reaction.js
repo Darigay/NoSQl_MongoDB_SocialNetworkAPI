@@ -1,11 +1,9 @@
-const { Schema, model } = require('mongoose');
+const { Schema, model, Types } = require('mongoose');
 
 const ReactionSchema = new Schema({
   reactionId: {
-    type: String,
-    required: 'Text is Required',
-    minlength: 1,
-    maxlength: 280 
+    type: Schema.Types.ObjectId,
+      default: () => new Types.ObjectId()
   },
 
   reactionBody: {
@@ -16,19 +14,25 @@ const ReactionSchema = new Schema({
  
   username: {
     type: String,
-    required: 'Username Created this thought'
+    required: true
   },
 
   createdAt: {
     type: Date,
-    default: Date.now
+    default: Date.now,
+    // get: createdAtVal => dateFormat(createdAtVal)
+  }
+},
+{
+  toJSON: {
+    getters: true
   },
-
-
-});
+  id: false
+}
+);
 
  
 
-const Reaction = model('Reaction', ReactionSchema);
+// const Reaction = model('Reaction', ReactionSchema);
 
-module.exports = Reaction;
+module.exports = ReactionSchema;
