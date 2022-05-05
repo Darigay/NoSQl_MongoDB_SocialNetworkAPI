@@ -44,6 +44,17 @@ We can also successfully create, update, and delete users and thoughts in databa
 
 
 ## Screenshots
+- Get all Users
+ ![GetAllUsers](https://user-images.githubusercontent.com/94805706/166989891-f4659d73-443a-4dde-ae1e-1dc708d7e547.png)
+
+- THoughts
+![Thoughts](https://user-images.githubusercontent.com/94805706/166989956-7ef9f20d-7742-4291-8255-48c9e63647f2.png)
+
+- Reactions
+ ![Reactions](https://user-images.githubusercontent.com/94805706/166990108-41569f70-3fb3-4f28-95a5-cc04087ae274.png)
+
+- Friends
+ ![Friends](https://user-images.githubusercontent.com/94805706/166990179-8acdbe6f-7b35-459b-adbd-64cbeb274143.png)
 
 
 ## Resources
