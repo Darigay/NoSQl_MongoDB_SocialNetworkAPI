@@ -20,6 +20,7 @@ Because the foundation of these applications is data, it’s important to unders
 
 ## Walk-through video of the Application 
 
+https://user-images.githubusercontent.com/94805706/167010574-8d5b21eb-ff73-4115-9099-97d1bc602484.mp4
 
 ## Usage
 AS A social media startup,it is an API for social network that uses a NoSQL database
