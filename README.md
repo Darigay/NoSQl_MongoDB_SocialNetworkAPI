@@ -82,8 +82,9 @@ Reaction
 
 
 ## Resources
-- UofU BootCamp Object-Relational Mapping (ORM) Modules
-- Sequilize Documentation
+- UofU BootCamp NOsql Module
+- MongoDB Documentation
+- Mongoose Documentation
 
 ## Contact
 Email Address : divya.arigay@gmail.com 
