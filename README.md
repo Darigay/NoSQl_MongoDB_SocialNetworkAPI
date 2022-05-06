@@ -31,26 +31,26 @@ Run npm start to run the server and make the API live
 In INSOMNIA, when API GET routes for users and thoughts are sent, the data for each of these routes is displayed in a formatted JSON.
 Similarly, when tested for API POST, PUT, and DELETE routes in Insomnia data is played in a formatted JSON.
 We can also successfully create, update, and delete users and thoughts in database, along with successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list.
-- EndPoints
+### EndPoints
 User
-Get all users: GET /api/users
-Create a user: POST /api/users
-Get user by ID: GET /api/users/:id
-Update a user: PUT /api/users/:id
-Delete a user: DELETE /api/users/:id
-Add a friend: PUT /api/users/:userId/friends/:friendId
-Delete a friend: DELETE /api/users/:userId/friends/:friendId
+- Get all users: GET /api/users
+- Create a user: POST /api/users
+- Get user by ID: GET /api/users/:id
+- Update a user: PUT /api/users/:id
+- Delete a user: DELETE /api/users/:id
+- Add a friend: PUT /api/users/:userId/friends/:friendId
+- Delete a friend: DELETE /api/users/:userId/friends/:friendId
 
 Thought
-Get all thoughts: GET /api/thoughts
-Create a thought: POST /api/thoughts
-Get thought by ID: GET /api/thoughts/:id
-Update a thought: PUT /api/thoughts/:id
-Delete a thought: DELETE /api/thoughts/:id
+- Get all thoughts: GET /api/thoughts
+- Create a thought: POST /api/thoughts
+- Get thought by ID: GET /api/thoughts/:id
+- Update a thought: PUT /api/thoughts/:id
+- Delete a thought: DELETE /api/thoughts/:id
 
 Reaction
-Add a reaction: PUT /api/thoughts/:id/reactions
-Delete a reaction: DELETE /api/thoughts/:id/reactions
+- Add a reaction: PUT /api/thoughts/:id/reactions
+- Delete a reaction: DELETE /api/thoughts/:id/reactions
 
 
 ## Technologies
