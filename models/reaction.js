@@ -1,3 +1,4 @@
+// Reaction Model schema
 const { Schema, model, Types } = require('mongoose');
 
 const ReactionSchema = new Schema({
